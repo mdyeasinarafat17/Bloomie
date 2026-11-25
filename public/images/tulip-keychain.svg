@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="bgTulip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff8fb"/>
+      <stop offset="100%" stop-color="#ffe0ee"/>
+    </linearGradient>
+    <linearGradient id="goldRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe08a"/>
+      <stop offset="100%" stop-color="#e6a735"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgTulip)"/>
+  <circle cx="315" cy="90" r="55" fill="#ffffff" opacity="0.6"/>
+  <!-- Gold keyring & clasp -->
+  <circle cx="200" cy="68" r="24" stroke="url(#goldRing)" stroke-width="8"/>
+  <rect x="193" y="90" width="14" height="32" rx="7" fill="url(#goldRing)"/>
+  <!-- Stems & wrap -->
+  <path d="M168 188 L195 275 M200 170 L200 275 M232 188 L205 275" stroke="#5fb878" stroke-width="8" stroke-linecap="round"/>
+  <path d="M148 228 L252 228 L224 316 L176 316 Z" fill="#fff0f6" stroke="#f49ec3" stroke-width="3"/>
+  <path d="M174 268 Q200 282 226 268" stroke="#ee5a9b" stroke-width="5" stroke-linecap="round"/>
+  <!-- 3 Tulips -->
+  <g transform="translate(162 172) rotate(-14)">
+    <path d="M-20 0 C-20 22,20 22,20 0 L18 -26 L6 -14 L0 -28 L-6 -14 L-18 -26 Z" fill="#ff85b8"/>
+  </g>
+  <g transform="translate(238 172) rotate(14)">
+    <path d="M-20 0 C-20 22,20 22,20 0 L18 -26 L6 -14 L0 -28 L-6 -14 L-18 -26 Z" fill="#ff9cc7"/>
+  </g>
+  <g transform="translate(200 156)">
+    <path d="M-22 0 C-22 25,22 25,22 0 L20 -30 L7 -16 L0 -32 L-7 -16 L-20 -30 Z" fill="#ee5a9b"/>
+  </g>
+  <!-- Love letter charm (left) -->
+  <g transform="translate(122 248) rotate(-12)">
+    <rect x="-22" y="-15" width="44" height="30" rx="6" fill="#ffffff" stroke="#ee5a9b" stroke-width="2.5"/>
+    <path d="M-20 -13 L0 3 L20 -13" stroke="#ee5a9b" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="0" cy="2" r="4" fill="#ee5a9b"/>
+  </g>
+  <!-- Strawberry charm (right) -->
+  <g transform="translate(274 246) rotate(10)">
+    <path d="M0 -18 C18 -18,22 2,0 24 C-22 2,-18 -18,0 -18 Z" fill="#ff5c8a"/>
+    <path d="M-12 -18 Q0 -26 12 -18 Q0 -11 -12 -18 Z" fill="#52b765"/>
+    <circle cx="-5" cy="-4" r="2" fill="#ffe6ef"/>
+    <circle cx="5" cy="-2" r="2" fill="#ffe6ef"/>
+    <circle cx="0" cy="8" r="2" fill="#ffe6ef"/>
+  </g>
+</svg>

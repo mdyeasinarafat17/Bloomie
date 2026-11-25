@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+:root {
+  --pink: #ee5a9b;
+  --pink-d: #d63d82;
+  --rose: #ff8fbf;
+  --blush: #ffe3ef;
+  --cream: #fff6fa;
+  --ink: #4a2036;
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+}
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background: var(--cream);
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-display {
+  font-family: 'Fredoka', 'Poppins', sans-serif;
+}
+
+.font-script {
+  font-family: 'Pacifico', 'Brush Script MT', cursive;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Soft ambient backdrop */
+.bloom-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(160deg, #fff6fa 0%, #ffe6f1 55%, #ffd6e8 100%);
+}
+
+.bloom-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(72px);
+  opacity: 0.5;
+  animation: bloom-float 16s ease-in-out infinite;
+}
+
+@keyframes bloom-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(32px, -36px, 0) scale(1.08);
+  }
+}
+
+/* Marquee banner */
+.bloom-marquee-track {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: bloom-marquee 26s linear infinite;
+}
+
+@keyframes bloom-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Hero slide progress bar */
+@keyframes hero-bar {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.hero-bar-run {
+  animation: hero-bar 4.8s linear forwards;
+}
+
+/* Footer tagline shimmer */
+.tagline-shine {
+  background: linear-gradient(
+    100deg,
+    #ffffff 15%,
+    #ffd0e5 35%,
+    #ffffff 50%,
+    #ffd0e5 65%,
+    #ffffff 85%
+  );
+  background-size: 240% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: tag-shine 5.5s linear infinite;
+}
+
+@keyframes tag-shine {
+  to {
+    background-position: -240% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .bloom-blob,
+  .bloom-marquee-track,
+  .hero-bar-run,
+  .tagline-shine {
+    animation: none !important;
+  }
+}

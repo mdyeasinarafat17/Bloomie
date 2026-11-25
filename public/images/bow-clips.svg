@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="bgBow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff5f9"/>
+      <stop offset="100%" stop-color="#ffd9ea"/>
+    </linearGradient>
+    <linearGradient id="pinkSoft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffb4d5"/>
+      <stop offset="100%" stop-color="#f472aa"/>
+    </linearGradient>
+    <linearGradient id="pinkBright" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff7fb8"/>
+      <stop offset="100%" stop-color="#d63d82"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgBow)"/>
+  <circle cx="80" cy="75" r="46" fill="#ffffff" opacity="0.5"/>
+  <circle cx="330" cy="320" r="64" fill="#ffffff" opacity="0.45"/>
+  <!-- Card backing -->
+  <rect x="65" y="48" width="270" height="304" rx="28" fill="#ffffff" stroke="#ffc3dd" stroke-width="3"/>
+  <!-- Bow 1 (top left) -->
+  <g transform="translate(140 135) rotate(-6)">
+    <path d="M-4 -4 C-36 -30,-52 6,-18 14 L-4 4 Z" fill="url(#pinkSoft)"/>
+    <path d="M4 -4 C36 -30,52 6,18 14 L4 4 Z" fill="url(#pinkSoft)"/>
+    <path d="M-8 6 L-28 40 L-12 36 L-2 10 Z" fill="#f472aa"/>
+    <path d="M8 6 L28 40 L12 36 L2 10 Z" fill="#f472aa"/>
+    <rect x="-8" y="-8" width="16" height="16" rx="7" fill="#ee5a9b"/>
+    <circle cx="-24" cy="-6" r="2.5" fill="#fff"/>
+    <circle cx="24" cy="-6" r="2.5" fill="#fff"/>
+    <circle cx="-18" cy="6" r="2.5" fill="#fff"/>
+    <circle cx="18" cy="6" r="2.5" fill="#fff"/>
+  </g>
+  <!-- Bow 2 (top right) -->
+  <g transform="translate(260 135) rotate(6)">
+    <path d="M-4 -4 C-36 -30,-52 6,-18 14 L-4 4 Z" fill="url(#pinkBright)"/>
+    <path d="M4 -4 C36 -30,52 6,18 14 L4 4 Z" fill="url(#pinkBright)"/>
+    <path d="M-8 6 L-28 40 L-12 36 L-2 10 Z" fill="#d63d82"/>
+    <path d="M8 6 L28 40 L12 36 L2 10 Z" fill="#d63d82"/>
+    <rect x="-8" y="-8" width="16" height="16" rx="7" fill="#b9296b"/>
+    <circle cx="-24" cy="-6" r="2.5" fill="#fff"/>
+    <circle cx="24" cy="-6" r="2.5" fill="#fff"/>
+    <circle cx="-18" cy="6" r="2.5" fill="#fff"/>
+    <circle cx="18" cy="6" r="2.5" fill="#fff"/>
+  </g>
+  <!-- Bow 3 (bottom left) -->
+  <g transform="translate(140 245) rotate(5)">
+    <path d="M-4 -4 C-36 -30,-52 6,-18 14 L-4 4 Z" fill="url(#pinkBright)"/>
+    <path d="M4 -4 C36 -30,52 6,18 14 L4 4 Z" fill="url(#pinkBright)"/>
+    <path d="M-8 6 L-28 40 L-12 36 L-2 10 Z" fill="#d63d82"/>
+    <path d="M8 6 L28 40 L12 36 L2 10 Z" fill="#d63d82"/>
+    <rect x="-8" y="-8" width="16" height="16" rx="7" fill="#b9296b"/>
+    <circle cx="-24" cy="-6" r="2.5" fill="#fff"/>
+    <circle cx="24" cy="-6" r="2.5" fill="#fff"/>
+    <circle cx="-18" cy="6" r="2.5" fill="#fff"/>
+    <circle cx="18" cy="6" r="2.5" fill="#fff"/>
+  </g>
+  <!-- Bow 4 (bottom right) -->
+  <g transform="translate(260 245) rotate(-5)">
+    <path d="M-4 -4 C-36 -30,-52 6,-18 14 L-4 4 Z" fill="url(#pinkSoft)"/>
+    <path d="M4 -4 C36 -30,52 6,18 14 L4 4 Z" fill="url(#pinkSoft)"/>
+    <path d="M-8 6 L-28 40 L-12 36 L-2 10 Z" fill="#f472aa"/>
+    <path d="M8 6 L28 40 L12 36 L2 10 Z" fill="#f472aa"/>
+    <rect x="-8" y="-8" width="16" height="16" rx="7" fill="#ee5a9b"/>
+    <circle cx="-24" cy="-6" r="2.5" fill="#fff"/>
+    <circle cx="24" cy="-6" r="2.5" fill="#fff"/>
+    <circle cx="-18" cy="6" r="2.5" fill="#fff"/>
+    <circle cx="18" cy="6" r="2.5" fill="#fff"/>
+  </g>
+  <text x="200" y="324" text-anchor="middle" font-family="'Fredoka', sans-serif" font-size="16" font-weight="600" fill="#d63d82">Set of 4 Dotted Bows</text>
+</svg>

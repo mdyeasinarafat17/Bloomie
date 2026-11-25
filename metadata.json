@@ -1,0 +1,6 @@
+{
+  "name": "Bloomie! – Making Moments Bloom",
+  "description": "Cute hair clips, charms, and keychains with mobile-friendly browsing and instant WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
